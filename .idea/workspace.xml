@@ -4,23 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89b9adc9-4a60-46fc-bdaa-58d85f200a22" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sudoku/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sudoku/SudokuApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sudoku/SudokuDomain/Coordinates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sudoku/SudokuDomain/IStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sudoku/SudokuDomain/SudokuGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sudoku/constants/constants/GameState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sudoku/constants/constants/Messages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sudoku/constants/constants/Rows.java" afterDir="false" />
+    <list default="true" id="89b9adc9-4a60-46fc-bdaa-58d85f200a22" name="Changes" comment="1st push">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Sudoku/userinterface/SudokuTextField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Sudoku/userinterface/UserInterfaceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sudoku_in_javafx/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sudoku_in_javafx/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/sudoku_in_javafx/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sudoku/userinterface/IUserInterfaceContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sudoku/userinterface/IUserInterfaceContract.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +18,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JavaFXApplication" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -94,6 +82,14 @@
       <option name="presentableId" value="Default" />
       <updated>1657222445291</updated>
     </task>
+    <task id="LOCAL-00001" summary="1st push">
+      <created>1657224901997</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657224901997</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,5 +102,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1st push" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st push" />
   </component>
 </project>

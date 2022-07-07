@@ -8,7 +8,7 @@ public interface IUserInterfaceContract {
         void onDialogClick();
     }
 
-    interface view {
+    interface View {
         void setListener(IUserInterfaceContract.EventListener lister);
         void updateSquare(int x, int y, int input);
         void updateBoard(SudokuGame game);
