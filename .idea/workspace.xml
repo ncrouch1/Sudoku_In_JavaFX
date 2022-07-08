@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89b9adc9-4a60-46fc-bdaa-58d85f200a22" name="Changes" comment="Playing with game logic to fix bad logic enforcement">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sudoku/computationlogic/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sudoku/computationlogic/GameLogic.java" afterDir="false" />
+    <list default="true" id="89b9adc9-4a60-46fc-bdaa-58d85f200a22" name="Changes" comment="Fixed game logic, will now no longer accept invalid solutions and will not generate invalid boards">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sudoku/persistence/LocalStorageImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sudoku/persistence/LocalStorageImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657248991601</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fixed game logic, will now no longer accept invalid solutions and will not generate invalid boards">
+      <created>1657249551916</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657249551916</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +163,7 @@
     <MESSAGE value="final push" />
     <MESSAGE value="Finished Tutorial" />
     <MESSAGE value="Playing with game logic to fix bad logic enforcement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Playing with game logic to fix bad logic enforcement" />
+    <MESSAGE value="Fixed game logic, will now no longer accept invalid solutions and will not generate invalid boards" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed game logic, will now no longer accept invalid solutions and will not generate invalid boards" />
   </component>
 </project>
