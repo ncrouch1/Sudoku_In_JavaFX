@@ -18,8 +18,8 @@ public class GameLogic {
     }
 
     public static GameState checkForCompletion(int[][] grid) {
-        if (sudokuIsInvalid(grid)) return GameState.ACTIVE;
-        if (tilesAreNotFilled(grid)) return GameState.ACTIVE;
+        if (sudokuIsInvalid(grid)
+                || tilesAreNotFilled(grid)) return GameState.ACTIVE;
         return GameState.COMPLETE;
     }
 
@@ -63,19 +63,19 @@ public class GameLogic {
         switch (value) {
             case TOP -> {
                 if (squareIsInvalid(0, 0, grid)
-                        || squareIsInvalid(0, 3, grid)
-                        || squareIsInvalid(0, 6, grid)) return true;
+                        || squareIsInvalid(3, 0, grid)
+                        || squareIsInvalid(6, 0, grid)) return true;
                 return false;
             }
             case MIDDLE -> {
-                if (squareIsInvalid(3, 0, grid)
+                if (squareIsInvalid(0, 3, grid)
                         || squareIsInvalid(3, 3, grid)
-                        || squareIsInvalid(3, 6, grid)) return true;
+                        || squareIsInvalid(6, 3, grid)) return true;
                 return false;
             }
             case BOTTOM -> {
-                if (squareIsInvalid(6, 0, grid)
-                        || squareIsInvalid(6, 3, grid)
+                if (squareIsInvalid(0, 6, grid)
+                        || squareIsInvalid(3, 6, grid)
                         || squareIsInvalid(6, 6, grid)) return true;
                 return false;
             }
