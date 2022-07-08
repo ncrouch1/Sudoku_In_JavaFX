@@ -24,9 +24,9 @@ public class GameLogic {
     }
 
     public static boolean sudokuIsInvalid(int[][] grid) {
-        if (rowsAreInvalid(grid)) return true;
-        if (columnsAreInvalid(grid)) return true;
-        if (squaresAreInvalid(grid)) return true;
+        if (rowsAreInvalid(grid)
+                || columnsAreInvalid(grid)
+                || squaresAreInvalid(grid)) return true;
         return false;
     }
 
@@ -53,31 +53,30 @@ public class GameLogic {
     }
 
     private static boolean squaresAreInvalid(int[][] grid) {
-        if (rowOfSquaresAreInvalid(Rows.TOP, grid)) return true;
-        if (rowOfSquaresAreInvalid(Rows.MIDDLE, grid)) return true;
-        if (rowOfSquaresAreInvalid(Rows.Bottom, grid)) return true;
-
+        if (rowOfSquaresAreInvalid(Rows.TOP, grid)
+                || rowOfSquaresAreInvalid(Rows.MIDDLE, grid)
+                || rowOfSquaresAreInvalid(Rows.BOTTOM, grid)) return true;
         return false;
     }
 
     private static boolean rowOfSquaresAreInvalid(Rows value, int[][] grid) {
         switch (value) {
             case TOP -> {
-                if (squareIsInvalid(0, 0, grid)) return true;
-                if (squareIsInvalid(0, 3, grid)) return true;
-                if (squareIsInvalid(0, 6, grid)) return true;
+                if (squareIsInvalid(0, 0, grid)
+                        || squareIsInvalid(0, 3, grid)
+                        || squareIsInvalid(0, 6, grid)) return true;
                 return false;
             }
             case MIDDLE -> {
-                if (squareIsInvalid(3, 0, grid)) return true;
-                if (squareIsInvalid(3, 3, grid)) return true;
-                if (squareIsInvalid(3, 6, grid)) return true;
+                if (squareIsInvalid(3, 0, grid)
+                        || squareIsInvalid(3, 3, grid)
+                        || squareIsInvalid(3, 6, grid)) return true;
                 return false;
             }
-            case Bottom -> {
-                if (squareIsInvalid(6, 0, grid)) return true;
-                if (squareIsInvalid(6, 3, grid)) return true;
-                if (squareIsInvalid(6, 6, grid)) return true;
+            case BOTTOM -> {
+                if (squareIsInvalid(6, 0, grid)
+                        || squareIsInvalid(6, 3, grid)
+                        || squareIsInvalid(6, 6, grid)) return true;
                 return false;
             }
         }
@@ -99,8 +98,7 @@ public class GameLogic {
             yIndex++;
         }
 
-        if (collectionHasRepeats(square)) return true;
-        return false;
+        return collectionHasRepeats(square);
     }
 
     private static boolean collectionHasRepeats(List<Integer> collection) {

@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89b9adc9-4a60-46fc-bdaa-58d85f200a22" name="Changes" comment="final push">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sudoku/buildlogic/SudokuBuildLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sudoku/persistence/LocalStorageImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/readme.md" afterDir="false" />
+    <list default="true" id="89b9adc9-4a60-46fc-bdaa-58d85f200a22" name="Changes" comment="Finished Tutorial">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sudoku/SudokuApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sudoku/SudokuApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Sudoku/computationlogic/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sudoku/computationlogic/GameLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sudoku/constants/constants/Rows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sudoku/constants/constants/Rows.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657232390488</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="final push">
+      <created>1657244354265</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657244354265</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Finished Tutorial">
+      <created>1657244666049</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657244666049</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +149,7 @@
     <MESSAGE value="2nd push" />
     <MESSAGE value="3rd push" />
     <MESSAGE value="final push" />
-    <option name="LAST_COMMIT_MESSAGE" value="final push" />
+    <MESSAGE value="Finished Tutorial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Tutorial" />
   </component>
 </project>
