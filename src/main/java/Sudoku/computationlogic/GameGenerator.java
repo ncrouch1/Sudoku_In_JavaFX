@@ -8,6 +8,14 @@ import java.util.Random;
 
 import static Sudoku.SudokuDomain.SudokuGame.GRID_BOUNDARY;
 
+/**
+ * This class and included methods are from the tutorial strictly. I'm not trying to mess with this guys algortihms
+ * and break the whole program
+ *
+ */
+
+
+
 public class GameGenerator {
     public static int[][] getNewGameGrid() {
         return unsolveGame(getSolvedGame());

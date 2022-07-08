@@ -2,6 +2,11 @@ package Sudoku.computationlogic;
 
 import Sudoku.SudokuDomain.SudokuGame;
 
+/**
+ * Straight from the tutorial, I see no issue with these methods
+ */
+
+
 public class SudokuUtilities {
     public static void copySudokuArrayValue(int[][] oldArray, int[][] newArray) {
         for (int xIndex = 0; xIndex < SudokuGame.GRID_BOUNDARY; xIndex++) {
