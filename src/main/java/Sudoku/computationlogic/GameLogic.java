@@ -4,9 +4,7 @@ import Sudoku.SudokuDomain.SudokuGame;
 import Sudoku.constants.constants.GameState;
 import Sudoku.constants.constants.Rows;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 
 import static Sudoku.SudokuDomain.SudokuGame.GRID_BOUNDARY;
 
@@ -105,10 +103,11 @@ public class GameLogic {
         return false;
     }
 
-    private static boolean collectionHasRepeats(List<Integer> square) {
-        HashSet<Integer> toSet = new HashSet<>();
-        square.forEach(integer -> { toSet.add(integer); });
-        return toSet.size() == square.size();
+    private static boolean collectionHasRepeats(List<Integer> collection) {
+        for (int index = 1; index <= GRID_BOUNDARY; index++) {
+            if (Collections.frequency(collection, index) > 1) return true;
+        }
+        return false;
     }
 
 

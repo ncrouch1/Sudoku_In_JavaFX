@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89b9adc9-4a60-46fc-bdaa-58d85f200a22" name="Changes" comment="2nd push">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sudoku/computationlogic/GameGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sudoku/computationlogic/GameLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sudoku/computationlogic/SudokuSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sudoku/computationlogic/SudokuUtilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sudoku/userinterface/logic/ControlLogic.java" afterDir="false" />
+    <list default="true" id="89b9adc9-4a60-46fc-bdaa-58d85f200a22" name="Changes" comment="final push">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Sudoku/buildlogic/SudokuBuildLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Sudoku/persistence/LocalStorageImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Sudoku/SudokuApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sudoku/SudokuApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sudoku/SudokuDomain/SudokuGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sudoku/SudokuDomain/SudokuGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sudoku/userinterface/UserInterfaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sudoku/userinterface/UserInterfaceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sudoku/computationlogic/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sudoku/computationlogic/GameLogic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +55,7 @@
       <recent name="C:\Users\noah-\Documents\Sudoku_In_JavaFX\src\main\java\Sudoku" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.sudoku_in_javafx.HelloApplication" />
       <module name="Sudoku_In_JavaFX" />
@@ -72,8 +69,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sudoku.Main" />
+      <module name="Sudoku_In_JavaFX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sudoku.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.HelloApplication" />
       </list>
     </recent_temporary>
@@ -101,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657227868811</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="3rd push">
+      <created>1657232390488</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657232390488</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +136,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st push" />
     <MESSAGE value="2nd push" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd push" />
+    <MESSAGE value="3rd push" />
+    <MESSAGE value="final push" />
+    <option name="LAST_COMMIT_MESSAGE" value="final push" />
   </component>
 </project>

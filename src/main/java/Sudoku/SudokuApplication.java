@@ -1,5 +1,6 @@
 package Sudoku;
 
+import Sudoku.buildlogic.SudokuBuildLogic;
 import Sudoku.userinterface.IUserInterfaceContract;
 import Sudoku.userinterface.UserInterfaceImpl;
 import javafx.application.Application;
